@@ -6,7 +6,7 @@ export function Footer({ locale }: { locale: Locale }) {
     <footer className="border-t border-white/10 bg-coal">
       <div className="section-shell grid gap-8 py-10 md:grid-cols-[1fr_auto] md:items-end">
         <div>
-          <img src="/brand/golden-circle-emblem.svg" alt="" className="h-12 w-12" />
+          <img src="/brand/golden-circle-emblem.png" alt="" className="h-12 w-12" />
           <p className="mt-4 max-w-xl text-sm leading-7 text-mist">
             Golden Circle est le pôle événementiel, lifestyle et privilèges de CSS — Caribbean Services Solutions. Accès, offres et événements sous conditions Golden Circle.
           </p>

@@ -14,7 +14,7 @@ export function Header({ locale }: { locale: Locale }) {
     <header className="sticky top-0 z-50 border-b border-white/10 bg-ink/88 backdrop-blur-xl">
       <div className="section-shell flex min-h-[76px] items-center justify-between gap-4 py-3">
         <Link href={`/${locale}`} className="flex items-center gap-3">
-          <img src="/brand/golden-circle-emblem.svg" alt="Golden Circle" className="h-10 w-10" />
+          <img src="/brand/golden-circle-emblem.png" alt="Golden Circle" className="h-10 w-10" />
           <div>
             <p className="text-sm font-semibold tracking-[0.18em] text-gold">GOLDEN CIRCLE</p>
             <p className="text-xs text-mist">L'Accès aux Privilèges</p>
