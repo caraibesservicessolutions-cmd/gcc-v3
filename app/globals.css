@@ -1,0 +1,49 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --wine: #4A192E;
+  --gold: #D1B464;
+  --pearl: #FAFAF9;
+  --ink: #12070D;
+}
+
+* { box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+body {
+  margin: 0;
+  background: radial-gradient(circle at top left, rgba(209, 180, 100, 0.11), transparent 34%), var(--ink);
+  color: var(--pearl);
+}
+
+a { color: inherit; text-decoration: none; }
+
+.section-shell {
+  width: min(1120px, calc(100% - 32px));
+  margin-inline: auto;
+}
+
+.gold-text {
+  background: linear-gradient(90deg, #D1B464, #FAFAF9, #D1B464);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+.premium-border {
+  border: 1px solid rgba(209, 180, 100, 0.32);
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.06), rgba(255,255,255,0.025));
+}
+
+.card-blur {
+  backdrop-filter: blur(18px);
+}
+
+.snake-texture {
+  background-image:
+    radial-gradient(circle at 20% 20%, rgba(209, 180, 100, 0.10), transparent 22%),
+    linear-gradient(135deg, rgba(209, 180, 100, 0.05) 25%, transparent 25%),
+    linear-gradient(225deg, rgba(209, 180, 100, 0.045) 25%, transparent 25%);
+  background-size: auto, 42px 42px, 42px 42px;
+}

@@ -1,0 +1,9 @@
+<svg width="1200" height="630" viewBox="0 0 1200 630" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="630" fill="#4A192E"/>
+  <circle cx="1000" cy="110" r="310" fill="#D1B464" fill-opacity="0.08"/>
+  <circle cx="190" cy="520" r="260" fill="#D1B464" fill-opacity="0.06"/>
+  <text x="96" y="230" font-family="Helvetica, Arial, sans-serif" font-size="78" font-weight="300" fill="#FAFAF9">GOLDEN CIRCLE</text>
+  <text x="96" y="318" font-family="Helvetica, Arial, sans-serif" font-size="78" font-weight="300" fill="#D1B464">Caraïbes</text>
+  <text x="100" y="410" font-family="Helvetica, Arial, sans-serif" font-size="30" fill="#FAFAF9">L'Accès aux Privilèges.</text>
+  <text x="100" y="480" font-family="Helvetica, Arial, sans-serif" font-size="22" fill="#D1B464">@gld.crcl</text>
+</svg>
