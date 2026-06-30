@@ -11,9 +11,9 @@ export default function manifest(): MetadataRoute.Manifest {
     theme_color: "#4A192E",
     icons: [
       {
-        src: "/brand/golden-circle-emblem.svg",
-        sizes: "512x512",
-        type: "image/svg+xml"
+        src: "/brand/golden-circle-emblem.png",
+        sizes: "631x639",
+        type: "image/png"
       }
     ]
   };
